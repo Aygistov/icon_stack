@@ -13,6 +13,8 @@ and the Flutter guide for
 
 Flutter widget for displaying stacked icons.
 
+![shirt + cat](lib/sample.png) 
+
 ## Features
 
 
