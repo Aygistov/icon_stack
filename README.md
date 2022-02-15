@@ -13,10 +13,9 @@ and the Flutter guide for
 
 Flutter widget for displaying stacked icons.
 
-![shirt + cat](lib/sample.png) 
+![shirt + cat](lib/tshirt_cat.PNG) 
 
 ## Features
-
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
 
