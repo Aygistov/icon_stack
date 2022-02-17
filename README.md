@@ -20,12 +20,15 @@ Flutter widget for displaying stacked icons.
 ```dart
 dependencies:
   icon_stack: 1.0.0
+  fluttericon: ^2.0.0  
 ```
 
 ## Usage 
 
 ```dart
 import 'package:icon_stack/icon_stack.dart';
+import 'package:fluttericon/font_awesome5_icons.dart';
+import 'package:fluttericon/rpg_awesome_icons.dart';
 ```
 ```dart
 IconStackWidget(

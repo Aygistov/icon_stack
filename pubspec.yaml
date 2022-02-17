@@ -1,7 +1,7 @@
 name: icon_stack
 description: Flutter widget for displaying stacked icons
 version: 1.0.0
-homepage:
+repository: https://github.com/Aygistov/icon_stack
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
