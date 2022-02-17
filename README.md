@@ -15,26 +15,39 @@ Flutter widget for displaying stacked icons.
 
 ![shirt + cat](lib/tshirt_cat.PNG) 
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+dependencies:
+  icon_stack: ^<latest-version>
+```
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+## Usage 
 
 ```dart
-const like = 'sample';
+import 'package:icon_stack/icon_stack.dart';
+```
+```dart
+IconStackWidget(
+  IconStack(
+    [
+      PositionedIcon(
+      icon: FontAwesome5.tshirt,
+        size: 0.800,
+        x: 0.000,
+        y: 1.000,
+        color: const Color(0xff607d8b)),
+      PositionedIcon(
+        icon: RpgAwesome.cat,
+        size: 0.348,
+        x: 0.496,
+        y: 0.537,
+        color: const Color(0xff263238)),
+    ],
+  ),
+),
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+You can use [Icon Stack Constructor](https://aygistov.github.io/icon_stack_constructor/) to create icon stacks
