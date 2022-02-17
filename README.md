@@ -19,7 +19,7 @@ Flutter widget for displaying stacked icons.
 
 ```dart
 dependencies:
-  icon_stack: 1.0.0
+  icon_stack: 1.0.1
   fluttericon: ^2.0.0  
 ```
 
