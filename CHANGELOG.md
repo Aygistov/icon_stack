@@ -17,3 +17,7 @@ README.md update
 ## 1.0.4
 
 README.md update
+
+## 1.0.5
+
+README.md update
