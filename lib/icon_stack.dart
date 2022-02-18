@@ -3,8 +3,12 @@ library icon_stack;
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
+/// Size of icons stack
 const iconStackWidgetSize = 100.0;
 
+/// A widget to display icon stack.
+///
+/// ...
 class IconStackWidget extends StatelessWidget {
   final IconStack iconStack;
 
@@ -24,6 +28,7 @@ class IconStackWidget extends StatelessWidget {
   }
 }
 
+/// A widget to display icon in icon stack.
 class PositionedIconWidget extends StatelessWidget {
   final PositionedIcon positionedIcon;
 
@@ -65,6 +70,7 @@ class PositionedIconWidget extends StatelessWidget {
   }
 }
 
+/// Class for icon in icon stack
 class PositionedIcon {
   final IconData icon;
   double size;
@@ -84,6 +90,7 @@ class PositionedIcon {
   });
 }
 
+/// Class for icon stack
 class IconStack extends ChangeNotifier {
   final List<PositionedIcon> icons;
   IconStack(this.icons);

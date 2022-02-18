@@ -13,39 +13,37 @@ and the Flutter guide for
 
 Flutter widget for displaying stacked icons.
 
-![shirt + cat](lib/tshirt_cat.PNG) 
+![example](lib/example.png) 
 
 ## Getting started
 
 ```dart
 dependencies:
-  icon_stack: 1.0.1
-  fluttericon: ^2.0.0  
+  icon_stack: 1.0.1 
 ```
 
 ## Usage 
 
 ```dart
 import 'package:icon_stack/icon_stack.dart';
-import 'package:fluttericon/font_awesome5_icons.dart';
-import 'package:fluttericon/rpg_awesome_icons.dart';
 ```
+
 ```dart
 IconStackWidget(
   IconStack(
     [
       PositionedIcon(
-      icon: FontAwesome5.tshirt,
-        size: 0.800,
+        icon: Icons.crop_original,
+        size: 1.000,
         x: 0.000,
-        y: 1.000,
-        color: const Color(0xff607d8b)),
+        y: 0.000,
+        color: const Color(0xff2196f3)),
       PositionedIcon(
-        icon: RpgAwesome.cat,
-        size: 0.348,
-        x: 0.496,
-        y: 0.537,
-        color: const Color(0xff263238)),
+        icon: Icons.wb_sunny,
+        size: 0.200,
+        x: 0.325,
+        y: 0.325,
+        color: const Color(0xffffc107)),
     ],
   ),
 ),
