@@ -12,13 +12,14 @@ and the Flutter guide for
 -->
 
 Flutter widget for displaying stacked icons.
-## Features
-![example](lib/example.png) 
+
+<img
+  src="lib/example.png"> 
 
 ## Getting started
 ```dart
 dependencies:
-  icon_stack: 1.0.3 
+  icon_stack: 1.0.4 
 ```
 
 ## Usage 
