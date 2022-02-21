@@ -15,12 +15,6 @@ Flutter widget for displaying stacked icons.
 
 ![example](https://user-images.githubusercontent.com/32730294/154675936-004676d9-ae34-478a-8011-4e3a34f15fd1.png)
 
-## Getting started
-```dart
-dependencies:
-  icon_stack: 1.0.5 
-```
-
 ## Usage 
 
 ```dart
